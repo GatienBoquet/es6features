@@ -1,12 +1,15 @@
-# ECMAScript 6 <sup>[git.io/es6features](http://git.io/es6features)</sup>
+# Les nouvelles fonctionnalités ECMAScript 6 <sup>[git.io/es6features](http://git.io/es6features)</sup>
+
+# Traduction du repo de lukehoban en français et ajouts d'exemples. 
+
 
 ## Introduction
-ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard.  ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009. Implementation of these features in major JavaScript engines is [underway now](http://kangax.github.io/es5-compat-table/es6/).
+ECMAScript 6, aussi connu sous le nom d'ECMAScript 2015, est la dernière version de la norme ECMAScript. .  ES6 est une mise à jour importante du language, et la première mise à jour depuis ES5 qui a été normalisée en 2009.  La mise en œuvre de ces fonctionnalités dans les principaux moteurs JavaScript est [en cours actuellement](http://kangax.github.io/es5-compat-table/es6/).
 
-See the [ES6 standard](http://www.ecma-international.org/ecma-262/6.0/) for full specification of the ECMAScript 6 language.
+Voir la [norme ES6](http://www.ecma-international.org/ecma-262/6.0/) pour la spécification complète du langage ECMAScript 6.
 
-ES6 includes the following new features:
-- [arrows](#arrows)
+ES6 comprend les nouvelles fonctionnalités suivantes:
+- [Fonctions fléchées](#arrows)
 - [classes](#classes)
 - [enhanced object literals](#enhanced-object-literals)
 - [template strings](#template-strings)
@@ -30,8 +33,8 @@ ES6 includes the following new features:
 
 ## ECMAScript 6 Features
 
-### Arrows
-Arrows are a function shorthand using the `=>` syntax.  They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript.  They support both statement block bodies as well as expression bodies which return the value of the expression.  Unlike functions, arrows share the same lexical `this` as their surrounding code.
+### Fonctions fléchées
+Les fonctions fléchées sont "un raccourci" de fonction utilisant la syntaxe `=>`. Ils sont syntaxiquement similaires à celle associée en C#, Java8 et CoffeeScript. Ils prennent en charge les corps de bloc d'instructions ainsi que les corps d'expression qui renvoient la valeur de l'expression. Contrairement aux fonctions, les flèches partagent le même lexical «this» que leur code environnant.
 
 ```JavaScript
 // Expression bodies
