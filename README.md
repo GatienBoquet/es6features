@@ -1,7 +1,5 @@
 # Les nouvelles fonctionnalités ECMAScript 6 <sup>[git.io/es6features](http://git.io/es6features)</sup>
 
-# Traduction du repo de lukehoban en français et ajouts d'exemples. 
-
 
 ## Introduction
 ECMAScript 6, aussi connu sous le nom d'ECMAScript 2015, est la dernière version de la norme ECMAScript. .  ES6 est une mise à jour importante du language, et la première mise à jour depuis ES5 qui a été normalisée en 2009.  La mise en œuvre de ces fonctionnalités dans les principaux moteurs JavaScript est [en cours actuellement](http://kangax.github.io/es5-compat-table/es6/).
@@ -31,7 +29,7 @@ ES6 comprend les nouvelles fonctionnalités suivantes:
 - [reflect api](#reflect-api)
 - [tail calls](#tail-calls)
 
-## ECMAScript 6 Features
+## Les fonctionnalités d'ECMAScript 6 
 
 ### Fonctions fléchées
 Les fonctions fléchées sont "un raccourci" de fonction utilisant la syntaxe `=>`. Ils sont syntaxiquement similaires à celle associée en C#, Java8 et CoffeeScript. Ils prennent en charge les corps de bloc d'instructions ainsi que les corps d'expression qui renvoient la valeur de l'expression. Contrairement aux fonctions, les flèches partagent le même lexical «this» que leur code environnant.
@@ -59,7 +57,7 @@ var bob = {
 }
 ```
 
-More info: [MDN Arrow Functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+Plus d'infos: [MDN Fonctions fléchées ](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions/Fonctions_fl%C3%A9ch%C3%A9es)
 
 ### Classes
 ES6 classes are a simple sugar over the prototype-based OO pattern.  Having a single convenient declarative form makes class patterns easier to use, and encourages interoperability.  Classes support prototype-based inheritance, super calls, instance and static methods and constructors.
